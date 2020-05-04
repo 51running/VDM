@@ -1,0 +1,24 @@
+* {
+    -fx-primary-color: #222222;
+    -fx-sb-size: 1.5em;
+    -fx-shortcut-color: white;
+}
+
+#main-view {
+    -fx-pref-width: 600;
+    -fx-pref-height: 400;
+    -fx-min-width: 600;
+    -fx-max-width: 400;
+}
+
+#shortcut-icons {
+    -fx-background-color: -fx-primary-color;
+}
+
+#shortcut-region {
+    -fx-min-height: -fx-sb-size;
+    -fx-min-width: -fx-sb-size;
+    -fx-max-height: -fx-sb-size;
+    -fx-max-width: -fx-sb-size;
+    -fx-background-color: -fx-shortcut-color;
+}
